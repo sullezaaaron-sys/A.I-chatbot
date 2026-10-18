@@ -1,0 +1,14 @@
+{
+  "name": "AI Assistant",
+  "short_name": "AI Assistant",
+  "description": "A simple class assistant powered by Google Gemini.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "/static/chat/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/static/chat/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,24 @@
+body { background:#f4f4f4; font-family: system-ui, sans-serif; }
+.mono { font-family: ui-monospace, Menlo, Consolas, monospace; font-size:.78rem; }
+.app { max-width:520px; margin:0 auto; min-height:100vh; display:flex; flex-direction:column; background:#fafafa; padding:12px; }
+.app-header { padding:6px 0 10px; }
+.box-btn { border:1px solid #111; background:#fff; padding:4px 9px; border-radius:6px; cursor:pointer; }
+.chat { flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:8px; padding:6px 0; }
+.label { color:#555; margin-top:6px; }
+.label.right { text-align:right; }
+.bubble { border:1px solid #111; border-radius:10px; padding:10px 12px; background:#fff; font-size:.92rem; word-wrap:break-word; }
+.bubble.user { background:#111; color:#fff; align-self:flex-end; max-width:85%; white-space:pre-wrap; }
+.bubble.error { border-color:#b00020; color:#b00020; }
+.bubble ul, .bubble ol { margin:.3rem 0 .3rem 1.1rem; padding:0; }
+.bubble pre { background:#f0f0f0; padding:8px; border-radius:6px; overflow-x:auto; font-size:.8rem; }
+.bubble code { background:#f0f0f0; padding:1px 4px; border-radius:4px; }
+.bubble .sp { height:.45rem; }
+.chips { display:flex; gap:8px; overflow-x:auto; padding:8px 0; }
+.chip { border:1px solid #111; background:#fff; padding:5px 10px; white-space:nowrap; cursor:pointer; }
+.composer { border:1px solid #111; border-radius:10px; background:#fff; padding:10px; }
+.composer textarea { width:100%; border:0; outline:0; resize:none; }
+.btn-box { border:1px solid #111; background:#fff; padding:6px 14px; border-radius:4px; cursor:pointer; }
+.btn-box.dark { background:#111; color:#fff; }
+.btn-box:disabled { opacity:.5; cursor:not-allowed; }
+.note { text-align:center; color:#666; margin-top:8px; }
+.offline-banner { background:#fff3cd; border:1px solid #997404; padding:8px 10px; border-radius:6px; font-size:.85rem; margin-bottom:6px; }
